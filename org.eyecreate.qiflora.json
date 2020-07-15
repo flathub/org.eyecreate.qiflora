@@ -87,8 +87,8 @@
         {
           "type": "git",
           "url": "https://git.eyecreate.org/eyecreate/qiflora.git",
-          "tag": "v1.1.2",
-          "commit": "23fdbd27b63dc48085287dcad206786ebfadb9df"
+          "tag": "v1.1.3",
+          "commit": "b04da6a1f6ee22f433d1d72b1bf95b0304dddf6f"
         }
       ]
     }
