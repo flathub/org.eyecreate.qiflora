@@ -1,0 +1,11 @@
+--- a/src/main.cpp	2020-07-14 22:39:56.017502749 -0400
++++ b/src/main.cpp	2020-07-19 17:57:48.365024812 -0400
+@@ -13,6 +13,8 @@
+     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+     QApplication app(argc, argv);
+     
++    QIcon::setThemeName(QStringLiteral("breeze"));
++    
+ #ifdef Q_OS_ANDROID
+     QQuickStyle::setStyle("Material");
+ #endif
