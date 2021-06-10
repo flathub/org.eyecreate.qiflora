@@ -1,7 +1,7 @@
 {
   "id": "org.eyecreate.qiflora",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.13",
+  "runtime-version": "5.15",
   "sdk": "org.kde.Sdk",
   "command": "qiflora",
   "finish-args": [
@@ -31,8 +31,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://github.com/libical/libical/archive/v3.0.5.tar.gz",
-          "sha256": "483acbf7fee66ca071c2ff8183e46b6f2b3a89e1e866eadf4870eaaa281c8db1"
+          "url": "https://github.com/libical/libical/archive/v3.0.10.tar.gz",
+          "sha256": "f933b3e6cf9d56a35bb5625e8e4a9c3a50239a85aea05ed842932c1a1dc336b4"
         }
       ]
     },
@@ -49,8 +49,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://mirrors.edge.kernel.org/pub/linux/bluetooth/bluez-5.52.tar.xz",
-          "sha256": "f7144ce2039202cfac18ccb52426efea11c98e4f6e1bb8041bcb994b8378560a"
+          "url": "https://mirrors.edge.kernel.org/pub/linux/bluetooth/bluez-5.58.tar.xz",
+          "sha256": "c8065e75a5eb67236849ef68a354b1700540305a8c88ef0a0fd6288f19daf1f1"
         }
       ]
     },
@@ -65,8 +65,8 @@
         {
           "type": "git",
           "url": "https://github.com/qt/qtconnectivity",
-          "branch": "5.13.2",
-          "commit": "13b15ab1b1ee2ad56d0d37b07d694fbfc22e97a3"
+          "branch": "5.15.2",
+          "commit": "ca6cc606d9fc0947ea6c27738a1ca8f12f3258ea"
         }
       ],
       "build-commands": [
