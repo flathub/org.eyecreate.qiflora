@@ -4,6 +4,7 @@
   "runtime-version": "5.15-25.08",
   "sdk": "org.kde.Sdk",
   "command": "qiflora",
+  "separate-locales": false,
   "finish-args": [
     "--share=ipc",
     "--allow=bluetooth",
@@ -14,7 +15,15 @@
     "--device=dri",
     "--talk-name=org.freedesktop.Notifications"
   ],
-  "separate-locales": false,
+  "cleanup": [
+    "/include",
+    "/lib/cmake",
+    "/lib/pkgconfig",
+    "/share/zsh",
+    "/src",
+    "*.la",
+    "*.a"
+  ],
   "modules": [
     {
       "name": "ical",
